@@ -1,0 +1,40 @@
+{
+  "name": "npm-missing-linter",
+  "main": "index.js",
+  "description": "Linter that detects import/require calls to modules that don't exist",
+  "version": "1.0.0",
+  "dependencies": {
+    "acorn-jsx": "^3.0.1",
+    "detect-import-require": "^2.0.0",
+    "map-limit": "0.0.1",
+    "resolve": "^1.1.7"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hughsk/atom-npm-missing-linter/issues"
+  },
+  "homepage": "https://github.com/hughsk/atom-npm-missing-linter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hughsk/atom-npm-missing-linter.git"
+  },
+  "keywords": [
+    "npm",
+    "missing",
+    "packages",
+    "modules",
+    "linter",
+    "invalid",
+    "import",
+    "require",
+    "resolve"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
+}
