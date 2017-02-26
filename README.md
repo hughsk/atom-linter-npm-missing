@@ -7,7 +7,7 @@
 ## Installation
 
 ``` bash
-apm install linter-npm-missing
+npm install linter-npm-missing
 ```
 
 ## License ##
