@@ -2,7 +2,7 @@
   "name": "linter-npm-missing",
   "main": "index.js",
   "description": "Linter that detects import/require calls to modules that don't exist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "acorn-jsx": "^3.0.1",
     "detect-import-require": "^2.0.0",
